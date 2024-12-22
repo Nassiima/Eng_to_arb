@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Nassiima:$HF_TOKEN@huggingface.co/spaces/Nassiima/eng_to_arb main
+        run: git push --force https://Nassiima:$HF_TOKEN@huggingface.co/spaces/Nassiima/eng_to_arb main
